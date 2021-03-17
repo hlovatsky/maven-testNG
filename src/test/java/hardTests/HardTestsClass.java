@@ -20,7 +20,7 @@ public class HardTestsClass {
     //add tests for new method - addition with multiple parameters
     @Test
     public void addMultiParam() {
-        int actualResult = calc.addMultiParam(8, 8, 9, 11, 22);
+        int actualResult = calc.addMultiParameters(8, 8, 9, 11, 22);
         assertEquals(actualResult, 58);
     }
 }
