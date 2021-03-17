@@ -43,7 +43,7 @@ public class Calculator {
         }
     }
 
-    public int addMultiParameters(int... T) {
+    public int addMultiParameter(int... T) {
         int sum = 0;
         for (int i = 0; i < T.length; i++)
             sum += T[i];
