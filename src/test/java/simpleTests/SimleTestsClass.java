@@ -24,7 +24,7 @@ public class SimleTestsClass {
     }
 
     @Test
-    public void multiplication() {
+    public void multiplicationOfNumbers() {
         int actualResult = calc.multiplication(10, 5);
         assertEquals(actualResult, 50);
     }
