@@ -12,7 +12,7 @@ public class HardTestsClass {
     //add tests for new method - divide by zero case
     @Test
     public void divByZero() {
-        int actualResult = calc.divByZero(4, 0);
+        int actualResult = calc.divByZero(6, 0);
         assertEquals(actualResult, -100);
     }
 
