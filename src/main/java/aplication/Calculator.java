@@ -50,7 +50,7 @@ public class Calculator {
         return sum;
     }
 
-    public int divByZero(int a, int b) {
+    public int divByZeroZero(int a, int b) {
         if (b == 0) {
             return -100;
         } else {
