@@ -45,8 +45,7 @@ public class Calculator {
 
     public int addMultiParam(int... T) {
         int sum = 0;
-        for (int i = 0; i < T.length; i++)
-            sum += T[i];
+        for (int j : T) sum += j;
         return sum;
     }
 
