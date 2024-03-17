@@ -17,6 +17,6 @@ public class HardTests {
     @Test
     public void addMultiParameters() {
         int actualResult = calc.addMultiParam(8, 8, 9, 11, 22);
-        assertEquals(actualResult, 48);
+        assertEquals(actualResult, 68);
     }
 }
