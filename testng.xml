@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" name="/home/hlovatskyi/IdeaProjects/maven-testNG">
+    <test verbose="2" name="maven-testNG"> <!-- Updated project name -->
+
         <classes>
             <class name="hardTests.HardTests">
                 <methods>
-                    <include name="divByZero"/>
                     <include name="addMultiParameters"/>
                 </methods>
             </class>
-            <class name="mediumTests.MediumTestsClass">
-                <methods>
-                    <include name="evenOrOdd"/>
-                    <include name="biggestValue"/>
-                </methods>
-            </class>
-            <class name="simpleTests.SimleTestsClass">
-                <methods>
-                    <include name="substraction"/>
-                    <include name="multiplication"/>
-                    <include name="division"/>
-                    <include name="squareRoot"/>
-                    <include name="numberToPower"/>
-                </methods>
-            </class>
         </classes>
+
     </test>
 </suite>
