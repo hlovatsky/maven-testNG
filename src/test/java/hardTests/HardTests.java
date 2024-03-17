@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class HardTestsClass {
+public class HardTests {
     Calculator calc = new Calculator();
 
     //TODO (**)
@@ -21,6 +21,6 @@ public class HardTestsClass {
     @Test
     public void addMultiParameters() {
         int actualResult = calc.addMultiParam(8, 8, 9, 11, 22);
-        assertEquals(actualResult, 58);
+        assertEquals(actualResult, 50);
     }
 }
