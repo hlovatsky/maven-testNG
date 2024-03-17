@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/hlova/TestNG-Maven">
+    <test verbose="2" name="C:/Users/hlova/TestNG-Maven">
 
         <groups>
             <run>
-                <include name="Regression"></include>
-                <include name="Smoke"></include>
+                <include name="Regression"/>
+                <include name="Smoke"/>
             </run>
         </groups>
-
-        <classes>
-            <class name="hardTests.HardTestsClass">
-                <methods>
-                    <include name="divByZero"/>
-                    <include name="addMultiParam"/>
-                </methods>
-            </class>
-        </classes>
 
     </test>
 </suite>
