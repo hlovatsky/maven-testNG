@@ -14,7 +14,7 @@ public class HardTests {
         assertEquals(actualResult, -100);
     }
 
-    @Test
+    @Test(groups = {"Regression"})
     public void addMultiParameters() {
         int actualResult = calc.addMultiParam(8, 8, 9, 11, 22);
         assertEquals(actualResult, 58);
