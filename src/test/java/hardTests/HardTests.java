@@ -22,6 +22,6 @@ public class HardTests {
     public void addMultiParameters() {
         int actualResult = calc.addMultiParam(8, 8, 9, 11, 22);
         assertEquals(actualResult, 58);
-        LOGGER.info("Actual result is {}", actualResult);
+        LOGGER.info("Actual result is: {}", actualResult);
     }
 }
